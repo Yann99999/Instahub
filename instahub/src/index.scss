@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans&display=swap');
+
+:root{
+  --primary-color: #161619;
+  --secondary-color: #27272c;
+  --border-color: #4b4b4b;
+  --light-color-font: #cecece;
+}
+
+*{ font-family: 'Spline Sans', sans-serif; }
+
+body{
+  background-color: var(--primary-color);
+  margin: 0;
+  padding: 0;
+}
+
+button{ cursor: pointer; }
+
+.error_msg{
+  display: flex;
+  justify-content: center;
+  color: var(--light-color-font);
+  font-size: 1.1em;
+  margin-top: 70px;
+}
+
